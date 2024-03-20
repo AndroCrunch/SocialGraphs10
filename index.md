@@ -85,11 +85,11 @@ end
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-### Large image
+### Large imagee
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
-![EV 24-hour plot](/assets/EV24dayplot.png "EV 24-hour plot")
+![EV 24-hour plot](/EV24dayplot.png "EV 24-hour plot")
 
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
