@@ -37,7 +37,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 *   Item baz
 *   Item zip
 
-<iframe src="crimes_plot.html" width="900" height="800" frameborder="0"></iframe>
+[Interactive Plot](crimes_plot.html)
 
 ### And a nested list:
 
