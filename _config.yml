@@ -1,5 +1,5 @@
-title: Assignment 2 (02806) - Data Story
-description: In this analysis of San Francisco Crime Data, we've uncovered a strong narrative on the trends of prostitution-related incidents across the city. The investigation reveals a notable shift in the pattern of occurrences, highlighting how law enforcement strategies and social initiatives might be reshaping the landscape of this crime. By visualizing the data over the years, we offer insights into the effectiveness of policy changes and their impact on curbing prostitution in San Francisco's various neighborhoods.
+title: Assignment 2 (02806) - Investigation of Correlation Between Narcotic and Assault Incidents in San Francisco
+description: In this analysis of San Francisco Crime Data, we've uncovered trends in narcotic and assault-related incidents across the city. The analysis reveals shifts in the number of incidents within both crime types. Furthermore, we investigate the correlation between these crime types across different areas of the city.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
