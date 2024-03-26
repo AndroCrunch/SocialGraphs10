@@ -6,7 +6,6 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-
 # Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
@@ -37,7 +36,10 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 *   Item baz
 *   Item zip
 
-![Interactive Plot](crimes_plot.html)
+### Interactive Plot
+
+<iframe src="crimes_plot.html" style="width:100%;height:600px;border:none;"></iframe>
+
 
 ### And a nested list:
 
@@ -53,11 +55,6 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 - level 1 item
   - level 2 item
   - level 2 item
-- level 1 item
 
 ![EV 24-hour plot](EV24dayplot.png "EV 24-hour plot")
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
 
