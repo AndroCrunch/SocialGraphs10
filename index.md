@@ -37,7 +37,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 *   Item baz
 *   Item zip
 
-![Crime per Hour](bokeh_plot_hours.png "Crime 24-hour plot")
+![Crime per Hour](crimes_plot.html "Crime 24-hour plot")
 
 ### And a nested list:
 
