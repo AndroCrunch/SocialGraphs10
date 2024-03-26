@@ -9,7 +9,7 @@ Text can be **bold**, _italic_
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 
-### Interactive Plot
+# Evolution of Crime Incidence Over Time
 
 <iframe src="crimes_plot.html" style="width:100%;height:600px;border:none;"></iframe>
 
