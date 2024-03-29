@@ -19,6 +19,8 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 Ovdje text o lokacijama plus slika
 
+<iframe src="choropleth_mapbox.html" style="width:100%;height:600px;border:none;"></iframe>
+
 
 # Prediction of Future Crime Occurences
 
