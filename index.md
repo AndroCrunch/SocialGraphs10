@@ -22,7 +22,7 @@ Ovdje text o lokacijama plus slika
 
 # Prediction of Future Crime Occurences
 
-<iframe src="crimes_plot2.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="crimes_plot.html" style="width:100%;height:600px;border:none;"></iframe>
 
 Ovdje text za regr
 
