@@ -10,7 +10,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 # Evolution of Crime Incidence Over Time
 
-The time series of Drug/Narcotic and Assault crimes was analyzed for following three time intervals/categories: 
+The time series of Drug/Narcotic and Assault crimes was analyzed for the following three time intervals/categories: 
 
 * Crime rate per **year**
 * Crime rate per **day of week**
@@ -20,10 +20,11 @@ The interactive plot allows the user to observe the barchart for all three time 
 
 <iframe src="crimes_plot.html" style="width:100%;height:600px;border:none;"></iframe>
 
-descr of year
+## descr of year
 
-descr of fd
+## descr of fd
 
+## treci
 
 # Mapping of Crime Occurence
 
