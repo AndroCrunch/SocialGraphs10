@@ -22,6 +22,8 @@ Ovdje text o lokacijama plus slika
 
 # Prediction of Future Crime Occurences
 
+<iframe src="bokeh_plot_regression.html" style="width:100%;height:600px;border:none;"></iframe>
+
 Ovdje text za regr
 
 # Conclusion
