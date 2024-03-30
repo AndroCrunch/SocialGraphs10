@@ -19,13 +19,20 @@ The time series of Drug/Narcotic and Assault crimes was analyzed for the followi
 
 The interactive plot allows the user to observe the barchart for all three time intervals, and to select which crime type will be observed in the barchart. Additionally, the crime count values have been normalised, for easier comparison  of the two crime types.
 
-<iframe src="crimes_plot.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="crimes_plot1.html" style="width:100%;height:600px;border:none;"></iframe>
 
-## descr of year
+## Crime rate per year
 
-## descr of fd
 
-## treci
+
+
+## Crime rate per day of week
+
+
+
+
+
+## Crime rate per hour
 
 # Mapping of Crime Occurence
 
