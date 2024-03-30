@@ -23,6 +23,7 @@ The interactive plot allows the user to observe the barchart for all three time 
 
 ## Crime rate per year
 
+From the yearly plot it can be observed that there is no correlation between
 
 
 
