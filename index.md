@@ -45,10 +45,19 @@ Ovdje text o lokacijama plus slika plus ovo je test
 
 <iframe src="crime_regression_plots.html" style="width:100%;height:600px;border:none;"></iframe>
 
-Ovdje text za regr
+We present a detailed linear regression analysis that quantitatively dissects the trends of two 
+distinct crime categories: _Drug/Narcotic_ and _Assault_ incidents from 2004 to 2016. The graph plots 
+yearly incident counts, with _Drug/Narcotic_ incidents depicted by blue dots, showing a decrease 
+from around 12,000 occurrences in 2004 to just over 6,000 by 2016, resulting in a negative slope. In 
+stark numerical contrast, the red dots representing _Assault_ ascend from approximately 6,000 
+to 10,000 incidents in the same timeframe, resulting in a positive slope. The regression lines, 
+serving as a statistical summarization of the data, suggest no evident cross-correlation in the 
+quantitative analysis. Instead, they delineate a decoupling of trajectories with an average annual 
+decrease of about 500 drug-related incidents versus an average annual increase of roughly 333 
+_Assault_ cases, underscoring the complexities and potentially independent drivers behind these criminal 
+behaviors.
 
 # Conclusion
 
-* * *
 
 
