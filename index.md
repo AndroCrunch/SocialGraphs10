@@ -6,7 +6,7 @@ title: Assignment 2 (02806) - Investigation of Correlation Between Narcotic and 
 
 # Introduction
 
-This is a normal paragraph following a header. 
+Due to the recent opioid crisis, we decided to analyze the historical data for drug usage and assaults in San Francisco. We use the SFPD dataset as well as outside information about San Francisco and try to understand the phenomenon as well as the causes of the issue. First, we compare the instances of drug occurrences and assaults over time and across districts and then try to forecast the trend of future patterns using linear regression. In addition, look for answers outside the dataset into external elements that could explain our findings.
 
 
 # Evolution of Crime Incidence Over Time
@@ -36,7 +36,32 @@ The hourly plot shows a higher similarity in crime rate between the two crime ty
 
 # Mapping of Crime Occurence
 
-Ovdje text o lokacijama plus slika plus ovo je test
+1) To understand the problem thoroughly, the spatial element
+is very important. \\
+2) Our analysis shows that there is no clear correlation between
+drugs crimes and assaults, and assaults are relatively equally
+spread across the city hence our focus on drug arrests. \\
+3) After data normalization, we color the districts with the
+highest degree of drug related arrests in a strong red color,
+and the ones with lower amount in white with the data
+spreading from 2003 to 2017. \\
+4) In general, there is a clear trend of reduction of drug related
+crimes in the city except for the period during the financial
+crisis of 2008.  \\
+5) Norther-eastern districts of the city have larger rates and
+these are Tenderloin, Northen and Mission. Main reason
+behind this is that this area is the city centre and thus has a
+larger population proportion and flow. When dwelling into the
+history of Tenderling, the district with the highest proportion of
+drug related crimes, we find clear social and economic factors:
+many entertainment venues, high prostitution level and a big
+concentration of services for homeless and people with
+substance abuse problems.  \\
+6) However, when exploring additional factors such as social
+policies, urban development and communities data, we find
+that our conclusion lack the bigger picture. Hence, we
+recommend using a wider approach in analysis the
+phenomena especially due to the current opioid crisis.  \\
 
 <iframe src="choropleth_mapbox.html" style="width:100%;height:600px;border:none;"></iframe>
 
