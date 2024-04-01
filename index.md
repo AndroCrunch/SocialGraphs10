@@ -39,48 +39,52 @@ The hourly plot shows a higher similarity in crime rate between the two crime ty
 1) To understand the problem thoroughly, the spatial element
 is very important. \\
 2) Our analysis shows that there is no clear correlation between
-drugs crimes and assaults, and assaults are relatively equally
+drug crimes and assaults, and assaults are relatively equally
 spread across the city hence our focus on drug arrests. \\
 3) After data normalization, we color the districts with the
-highest degree of drug related arrests in a strong red color,
-and the ones with lower amount in white with the data
+highest degree of drug-related arrests in a strong red color,
+and the ones with lower amounts in white with the data
 spreading from 2003 to 2017. \\
-4) In general, there is a clear trend of reduction of drug related
+4) In general, there is a clear trend of reduction of drug-related
 crimes in the city except for the period during the financial
 crisis of 2008.  \\
 5) Norther-eastern districts of the city have larger rates and
-these are Tenderloin, Northen and Mission. Main reason
-behind this is that this area is the city centre and thus has a
+these are Tenderloin, Northen, and Mission. The main reason
+behind this is that this area is the city center and thus has a
 larger population proportion and flow. When dwelling into the
 history of Tenderling, the district with the highest proportion of
-drug related crimes, we find clear social and economic factors:
-many entertainment venues, high prostitution level and a big
-concentration of services for homeless and people with
+drug-related crimes, we find clear social and economic factors:
+many entertainment venues, high prostitution levels, and a big
+concentration of services for the homeless and people with
 substance abuse problems.  \\
 6) However, when exploring additional factors such as social
-policies, urban development and communities data, we find
-that our conclusion lack the bigger picture. Hence, we
-recommend using a wider approach in analysis the
+policies, urban development, and community data, we find
+that our conclusion lacks the bigger picture. Hence, we
+recommend using a wider approach in analyzing the
 phenomena especially due to the current opioid crisis.  \\
+
 
 <iframe src="choropleth_mapbox.html" style="width:100%;height:600px;border:none;"></iframe>
 
 
 # Prediction of Future Crime Occurences
 
+We did a linear regression analysis to really dig into the trends of two different kinds of crimes: 
+drug/narcotic incidents and assaults, looking at the years from 2004 to 2016. We made a graph that 
+shows how many times these crimes happened each year. For drug/narcotic incidents, we used blue 
+dots on the graph, and it showed that these crimes went down from about 12,000 times in 2004 to 
+just over 6,000 times by 2016, so the line on the graph is going down. On the other hand, the red 
+dots for assaults went up from around 6,000 to 10,000 times in the same period, so their line on 
+the graph goes up.
+
 <iframe src="crime_regression_plots.html" style="width:100%;height:600px;border:none;"></iframe>
 
-We present a detailed linear regression analysis that quantitatively dissects the trends of two 
-distinct crime categories: _Drug/Narcotic_ and _Assault_ incidents from 2004 to 2016. The graph plots 
-yearly incident counts, with _Drug/Narcotic_ incidents depicted by blue dots, showing a decrease 
-from around 12,000 occurrences in 2004 to just over 6,000 by 2016, resulting in a negative slope. In 
-stark numerical contrast, the red dots representing _Assault_ ascend from approximately 6,000 
-to 10,000 incidents in the same timeframe, resulting in a positive slope. The regression lines, 
-serving as a statistical summarization of the data, suggest no evident cross-correlation in the 
-quantitative analysis. Instead, they delineate a decoupling of trajectories with an average annual 
-decrease of about 500 drug-related incidents versus an average annual increase of roughly 333 
-_Assault_ cases, underscoring the complexities and potentially independent drivers behind these criminal 
-behaviors.
+When we drew lines through these dots to summarize the trends (those are the regression lines), 
+it looked like these two types of crimes weren’t really related to each other. Instead, they seemed 
+to be going in their own directions. On average, drug-related crimes were decreasing by about 500 
+incidents every year, while assault cases were going up by about 333 incidents each year. This 
+shows how complicated these crime trends can be, and that there might be different reasons that impact
+each type of crime.
 
 # Conclusion
 
