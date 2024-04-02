@@ -6,7 +6,8 @@ title: Assignment 2 (02806) - Investigation of Correlation Between Narcotic and 
 
 # Introduction
 
-Due to the recent opioid crisis, we decided to analyze the historical data for drug usage and assaults in San Francisco. We use the SFPD dataset as well as outside information about San Francisco and try to understand the phenomenon as well as the causes of the issue. First, we compare the instances of drug occurrences and assaults over time and across districts and then try to forecast the trend of future patterns using linear regression. In addition, look for answers outside the dataset into external elements that could explain our findings.
+Due to the recent **opioid crisis**, we decided to analyze the historical data for drug usage and assaults in San Francisco. We use the **SFPD dataset** as well as outside information about San Francisco and try to understand the phenomenon as well as the causes of the issue. First, we compare the instances of **drug arrests** and **assaults** over time and across districts and then try to forecast the trend of future patterns using **linear regression**. In addition, look for answers outside the dataset into external elements that could explain our findings.
+
 
 
 # Evolution of Crime Incidence Over Time
@@ -36,28 +37,16 @@ The hourly plot shows a higher similarity in crime rate between the two crime ty
 
 # Mapping of Crime Occurence
 
-To understand the problem thoroughly, the spatial element
-is very important. Our analysis shows that there is no clear correlation between drug crimes and assaults, and assaults are relatively equally spread across the city hence our focus on drug arrests. After data normalization, we color the districts with the
-highest degree of drug-related arrests in a strong red color,
-and the ones with lower amounts in white with the data
-spreading from 2003 to 2017. 
+To understand the problem thoroughly, the **spatial element** is very important. Our analysis shows that there is no clear correlation between drug crimes and assaults, and assaults are relatively equally spread across the city hence our focus on drug arrests. After data normalization, we color the districts with the highest degree of drug-related arrests in a **strong red color**, and the ones with lower amounts in white with the data spreading from **2003 to 2017**.
+
 
 
 <iframe src="choropleth_mapbox.html" style="width:100%;height:600px;border:none;"></iframe>
 
-\\
-In general, there is a clear trend of reduction of drug-related
-crimes in the city except for the period during the financial
-crisis of 2008. Norther-eastern districts of the city have larger rates and
-these are Tenderloin, Northen, and Mission. The main reason
-behind this is that this area is the city center and thus has a
-larger population proportion and flow. 
+In general, there is a clear trend of **reduction of drug-related crimes** in the city except for the period during the **financial crisis of 2008**. Northern-eastern districts of the city have larger rates, and these are **Tenderloin, Northern, and Mission**. The main reason behind this is that this area is the city center and thus has a larger population proportion and flow. Specifically, **Tenderloin** in the district with the largest amount of Drug/Narcotic related crimes with **4,822 reported related arrests in 2008**.
 
-When dwelling into the history of Tenderling, the district with the highest proportion of
-drug-related crimes, we find clear social and economic factors:
-many entertainment venues, high prostitution levels, and a big
-concentration of services for the homeless and people with
-substance abuse problems. However, when exploring additional factors such as social policies, urban development, and community data, we find that our conclusion lacks the bigger picture. Hence, we recommend using a wider approach in analyzing the phenomena especially due to the current opioid crisis.  
+When dwelling into the history of Tenderloin, the district with the **highest proportion of drug-related crimes**, we find clear social and economic factors: many entertainment venues, high prostitution levels, and a big concentration of services for the homeless and people with substance abuse problems. However, when exploring additional factors such as social policies, urban development, and community data, we find that our conclusion lacks the bigger picture. Hence, we recommend using a wider approach in analyzing the phenomena especially due to the current opioid crisis.
+
 
 # Prediction of Future Crime Occurences
 
