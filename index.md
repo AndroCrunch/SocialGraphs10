@@ -6,7 +6,7 @@ title: Assignment 2 (02806) - Investigation of Correlation Between Narcotic and 
 
 # Introduction
 
-Due to the recent **opioid crisis**, we decided to analyze the historical data for drug usage and assaults in San Francisco. We use the **SFPD dataset** as well as outside information about San Francisco and try to understand the phenomenon as well as the causes of the issue. First, we compare the instances of **drug arrests** and **assaults** over time and across districts and then try to forecast the trend of future patterns using **linear regression**. In addition, look for answers outside the dataset into external elements that could explain our findings.
+Due to the recent **opioid crisis**, we decided to analyze the historical data for drug usage and assaults in San Francisco. We use the **SFPD dataset** as well as outside information about San Francisco and try to understand the phenomenon as well as the causes of the issue. First, we compare the instances of **drug arrests** and **assaults** over time and across districts and then try to forecast the trend of future patterns using **linear regression**. In addition, look for answers outside the dataset into external elements that could explain our findings as we found dataset doesn't present the full picture.
 
 
 
@@ -44,18 +44,17 @@ To understand the problem thoroughly, the **spatial element** is very important.
 <iframe src="choropleth_mapbox.html" style="width:100%;height:600px;border:none;"></iframe>
 
 In general, there is a clear trend of **reduction of drug-related crimes** in the city except for the period during the **financial crisis of 2008**. Northern-eastern districts of the city have larger rates, and these are **Tenderloin, Northern, and Mission**. The main reason behind this is that this area is the city center and thus has a larger population proportion and flow. Specifically, **Tenderloin** in the district with the largest amount of Drug/Narcotic related crimes with **4,822 reported related arrests in 2008**.
-
-When dwelling into the history of Tenderloin, the district with the **highest proportion of drug-related crimes**, we find clear social and economic factors: many entertainment venues, high prostitution levels, and a big concentration of services for the homeless and people with substance abuse problems. However, when exploring additional factors such as social policies, urban development, and community data, we find that our conclusion lacks the bigger picture. Hence, we recommend using a wider approach in analyzing the phenomena especially due to the current opioid crisis.
+Interestingly, when comparing SFPD data with personal income data, in assaults there is a similar number increase in all districts, while drug related crimes are moslty in lower-income parts. When dwelling into the history of Tenderloin, the district with the **highest proportion of drug-related crimes**, we find clear social and economic factors: many entertainment venues, high prostitution levels, and a big concentration of services for the homeless and people with substance abuse problems. However, when exploring additional factors such as social policies, urban development, and community data, we find that our conclusion lacks the bigger picture. Hence, we recommend using a wider approach in analyzing the phenomena especially due to the current opioid crisis.
 
 
 # Prediction of Future Crime Occurences
 
-We did a linear regression analysis to really dig into the trends of two different kinds of crimes: **drug/narcotic incidents** and **assaults**, looking at the years from **2004 to 2016**. We made a graph that shows how many times these crimes happened each year. For drug/narcotic incidents, we used **blue dots** on the graph, and it showed that these crimes went down from about **12,000 times in 2004** to just over **6,000 times by 2016**, so the line on the graph is going down. On the other hand, the **red dots** for assaults went up from around **6,000 to 10,000 times** in the same period, so their line on the graph goes up.
+We used a linear regression to understand into the trends of **drug/narcotic incidents** and **assaults**, looking at the years from **2004 to 2017**. We made a graph that shows how many times these crimes happened each year. For drug/narcotic incidents, we used **blue dots** on the graph, and it showed that these crimes went down from about **12,000 times in 2004** to just over **6,000 times by 2017**, so the line on the graph is going down. On the other hand, the **red dots** for assaults went up from around **6,000 to 10,000 times** in the same period, so their line on the graph goes up.
 
 
 <iframe src="crime_regression_plots2.html" style="width:100%;height:600px;border:none;"></iframe>
 
-When we drew lines through these dots to summarize the trends (those are the **regression lines**), it looked like these two types of crimes weren’t really related to each other. Instead, they seemed to be going in their own directions. On average, drug-related crimes were decreasing by about **500 incidents every year**, while assault cases were going up by about **333 incidents each year**. This shows how complicated these crime trends can be, and that there might be different reasons that impact each type of crime.
+When applying linear regression model, the data clearly shows that two types of crimes aren't related to each other. Instead, they seemed to be going in their own directions. On average, drug-related crimes were decreasing by about **500 incidents every year**, while assault cases were going up by about **333 incidents each year**. This shows how complicated these crime trends can be, and that there might be different reasons that impact each type of crime. 
 
 
 # Conclusion
