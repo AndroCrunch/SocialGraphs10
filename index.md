@@ -61,7 +61,7 @@ substance abuse problems.  \\
 policies, urban development, and community data, we find
 that our conclusion lacks the bigger picture. Hence, we
 recommend using a wider approach in analyzing the
-phenomena especially due to the current opioid crisis.  \\
+phenomena especially due to the current opioid crisis.  
 
 
 <iframe src="choropleth_mapbox.html" style="width:100%;height:600px;border:none;"></iframe>
