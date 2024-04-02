@@ -36,19 +36,20 @@ The hourly plot shows a higher similarity in crime rate between the two crime ty
 
 # Mapping of Crime Occurence
 
-1) To understand the problem thoroughly, the spatial element
-is very important. \\
-2) Our analysis shows that there is no clear correlation between
-drug crimes and assaults, and assaults are relatively equally
-spread across the city hence our focus on drug arrests. \\
-3) After data normalization, we color the districts with the
+To understand the problem thoroughly, the spatial element
+is very important. Our analysis shows that there is no clear correlation between drug crimes and assaults, and assaults are relatively equally
+spread across the city hence our focus on drug arrests. After data normalization, we color the districts with the
 highest degree of drug-related arrests in a strong red color,
 and the ones with lower amounts in white with the data
 spreading from 2003 to 2017. \\
-4) In general, there is a clear trend of reduction of drug-related
+
+
+<iframe src="choropleth_mapbox.html" style="width:100%;height:600px;border:none;"></iframe>
+
+\\
+In general, there is a clear trend of reduction of drug-related
 crimes in the city except for the period during the financial
-crisis of 2008.  \\
-5) Norther-eastern districts of the city have larger rates and
+crisis of 2008. Norther-eastern districts of the city have larger rates and
 these are Tenderloin, Northen, and Mission. The main reason
 behind this is that this area is the city center and thus has a
 larger population proportion and flow. When dwelling into the
@@ -56,16 +57,10 @@ history of Tenderling, the district with the highest proportion of
 drug-related crimes, we find clear social and economic factors:
 many entertainment venues, high prostitution levels, and a big
 concentration of services for the homeless and people with
-substance abuse problems.  \\
-6) However, when exploring additional factors such as social
-policies, urban development, and community data, we find
+substance abuse problems. However, when exploring additional factors such as social policies, urban development, and community data, we find
 that our conclusion lacks the bigger picture. Hence, we
 recommend using a wider approach in analyzing the
 phenomena especially due to the current opioid crisis.  
-
-
-<iframe src="choropleth_mapbox.html" style="width:100%;height:600px;border:none;"></iframe>
-
 
 # Prediction of Future Crime Occurences
 
