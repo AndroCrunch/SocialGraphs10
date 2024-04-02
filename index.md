@@ -37,7 +37,7 @@ The hourly plot shows a higher similarity in crime rate between the two crime ty
 
 # Mapping of Crime Occurence
 
-To understand the problem thoroughly, the **spatial element** is very important. Our analysis shows that there is no clear correlation between drug crimes and assaults, and assaults are relatively equally spread across the city hence our focus on drug arrests. After data normalization, we color the districts with the highest degree of drug-related arrests in a **strong red color**, and the ones with lower amounts in white with the data spreading from **2003 to 2017**.
+To understand the problem thoroughly, the **spatial element** is very important. Our analysis shows that there is no clear correlation between drug crimes and assaults, and assaults are relatively equally spread across the city hence our **focus on drug arrests**. After data normalization, we color the districts with the highest degree of drug-related arrests in a **strong red color**, and the ones with lower amounts in **white** with the data spreading from **2003 to 2017**.
 
 
 
@@ -50,24 +50,16 @@ When dwelling into the history of Tenderloin, the district with the **highest pr
 
 # Prediction of Future Crime Occurences
 
-We did a linear regression analysis to really dig into the trends of two different kinds of crimes: 
-drug/narcotic incidents and assaults, looking at the years from 2004 to 2016. We made a graph that 
-shows how many times these crimes happened each year. For drug/narcotic incidents, we used blue 
-dots on the graph, and it showed that these crimes went down from about 12,000 times in 2004 to 
-just over 6,000 times by 2016, so the line on the graph is going down. On the other hand, the red 
-dots for assaults went up from around 6,000 to 10,000 times in the same period, so their line on 
-the graph goes up.
+We did a linear regression analysis to really dig into the trends of two different kinds of crimes: **drug/narcotic incidents** and **assaults**, looking at the years from **2004 to 2016**. We made a graph that shows how many times these crimes happened each year. For drug/narcotic incidents, we used **blue dots** on the graph, and it showed that these crimes went down from about **12,000 times in 2004** to just over **6,000 times by 2016**, so the line on the graph is going down. On the other hand, the **red dots** for assaults went up from around **6,000 to 10,000 times** in the same period, so their line on the graph goes up.
+
 
 <iframe src="crime_regression_plots2.html" style="width:100%;height:600px;border:none;"></iframe>
 
-When we drew lines through these dots to summarize the trends (those are the regression lines), 
-it looked like these two types of crimes weren’t really related to each other. Instead, they seemed 
-to be going in their own directions. On average, drug-related crimes were decreasing by about 500 
-incidents every year, while assault cases were going up by about 333 incidents each year. This 
-shows how complicated these crime trends can be, and that there might be different reasons that impact
-each type of crime.
+When we drew lines through these dots to summarize the trends (those are the **regression lines**), it looked like these two types of crimes weren’t really related to each other. Instead, they seemed to be going in their own directions. On average, drug-related crimes were decreasing by about **500 incidents every year**, while assault cases were going up by about **333 incidents each year**. This shows how complicated these crime trends can be, and that there might be different reasons that impact each type of crime.
+
 
 # Conclusion
 In our analysis of correlation between drug and assault related crimes in San Francisco, we discovered patterns and trends across various timeframes and districts showing no clear correlation between the two crime types. Further analysis would be required to understand whether one crime induces another in order to optimize police response and crime prevention. All together, we advocate for a broader analysis of the problem including bigger datasets and other perspectives such as people density in districts at a given time, type of drug, and other information.
 
 
+ 
