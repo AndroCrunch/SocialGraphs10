@@ -68,6 +68,6 @@ shows how complicated these crime trends can be, and that there might be differe
 each type of crime.
 
 # Conclusion
-
+In our analysis of correlation between drug and assault related crimes in San Francisco, we discovered patterns and trends across various timeframes and districts showing no clear correlation between the two crime types. Further analysis would be required to understand whether one crime induces another in order to optimize police response and crime prevention. All together, we advocate for a broader analysis of the problem including bigger datasets and other perspectives such as people density in districts at a given time, type of drug, and other information.
 
 
