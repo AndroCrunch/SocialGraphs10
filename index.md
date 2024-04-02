@@ -77,7 +77,7 @@ just over 6,000 times by 2016, so the line on the graph is going down. On the ot
 dots for assaults went up from around 6,000 to 10,000 times in the same period, so their line on 
 the graph goes up.
 
-<iframe src="crime_regression_plots.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="crime_regression_plots2.html" style="width:100%;height:600px;border:none;"></iframe>
 
 When we drew lines through these dots to summarize the trends (those are the regression lines), 
 it looked like these two types of crimes weren’t really related to each other. Instead, they seemed 
