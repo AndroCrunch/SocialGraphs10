@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Assignment 2 (02806) - Investigation of Correlation Between Narcotic and Assault Incidents in San Francisco
+title: Final Project - lInvestigation of Correlation Between Narcotic and Assault Incidents in San Francisco
 ---
 
 
