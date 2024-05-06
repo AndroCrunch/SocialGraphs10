@@ -61,6 +61,8 @@ From the plot above it can be observed that all the manufacturers have increased
 
 <iframe src="p8.html" style="width:100%;height:600px;border:none;"></iframe>
 
+<img src="p20.png" width="300"/>
+
 <iframe src="p10a.html" style="width:100%;height:600px;border:none;"></iframe>
 
 <iframe src="p10b.html" style="width:100%;height:600px;border:none;"></iframe>
