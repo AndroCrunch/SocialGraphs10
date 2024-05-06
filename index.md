@@ -66,7 +66,7 @@ From the plot above it can be observed that all the manufacturers have increased
 
 ## ML - Random Forest
 
-<iframe src="plt12.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p12.html" style="width:100%;height:600px;border:none;"></iframe>
 
 When applying linear regression model, the data clearly shows that two types of crimes aren't related to each other. Instead, they seemed to be going in their own directions. On average, drug-related crimes were decreasing by about **500 incidents every year**, while assault cases were going up by about **333 incidents each year**. This shows how complicated these crime trends can be, and that there might be different reasons that impact each type of crime. 
 
