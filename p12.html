@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.3.4.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="de60668e-4c3b-44ec-9530-5cf4c0ff0cff" data-root-id="p2407" style="display: contents;"></div>
+  
+    <script type="application/json" id="p2480">
+      {"cd226188-1241-4759-b5bb-9b29b1e3150c":{"version":"3.3.4","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p2407","attributes":{"width":500,"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p2408"},"y_range":{"type":"object","name":"DataRange1d","id":"p2409"},"x_scale":{"type":"object","name":"LinearScale","id":"p2417"},"y_scale":{"type":"object","name":"LinearScale","id":"p2418"},"title":{"type":"object","name":"Title","id":"p2410","attributes":{"text":"Daily Energy Consumption for All Stations - 30 Days Forecast"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p2458","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p2404","attributes":{"selected":{"type":"object","name":"Selection","id":"p2405","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p2406"},"data":{"type":"map","entries":[["date",{"type":"ndarray","array":{"type":"bytes","data":"AAAAKIRLd0IAAMCN1kt3QgAAgPMoTHdCAABAWXtMd0IAAAC/zUx3QgAAwCQgTXdCAACAinJNd0IAAEDwxE13QgAAAFYXTndCAADAu2lOd0IAAIAhvE53QgAAQIcOT3dCAAAA7WBPd0IAAMBSs093QgAAgLgFUHdCAABAHlhQd0IAAACEqlB3QgAAwOn8UHdCAACAT09Rd0IAAEC1oVF3QgAAABv0UXdCAADAgEZSd0IAAIDmmFJ3QgAAQEzrUndCAAAAsj1Td0IAAMAXkFN3QgAAgH3iU3dCAABA4zRUd0IAAABJh1R3QgAAwK7ZVHdC"},"shape":[30],"dtype":"float64","order":"little"}],["actual",{"type":"ndarray","array":{"type":"bytes","data":"QmDl0CLFfEBI4XoUrsV6QPYoXI/CcYVAVg4tsp1zeUDByqFFtsl5QB+F61G4doBAukkMAis/c0AzMzMzM8yBQNv5fmq8NoFArkfhehRmgUAMAiuHFo93QPyp8dJNroNAEoPAyqHVgkBYObTIdjx1QIGVQ4ts7YJAke18PzUaeED4U+Olm1h7QPT91HjpJ4FA7nw/NV5ydUAtsp3vp8SAQG8Sg8DKKXRAHVpkO99xekDTTWIQWC96QLByaJHtGIZAWmQ730/jfEDufD81XpSBQKJFtvP9voFAeekmMQiue0D8qfHSTaZ7QNNNYhBYS39A"},"shape":[30],"dtype":"float64","order":"little"}],["forecasted",{"type":"ndarray","array":{"type":"bytes","data":"eMKeuARJeEBWdSxCQ/J6QHpkxdPf9XhAYDm+zWXogEC0N6V6uoV9QDRTjLncNHpAk0NRwU2geUDIYh+NaNZ4QOoCwZAjhHxAo1TrkrPCgkCfrRB3EcB9QKwKeal9Z31AGlylgahQgUAJUoQvH26AQF3J0KmCa3xAWIjMZGkkgUBF/w3Sqg5+QK/Ej3ODo3lAjVyBMl/0gUCbTeTVK29+QKiDD2cmmHlAdNhM167PgEA6IxhBQi18QCHkrB3PPnxAn4gk/pHNgUCTy/sPG8l7QBErxJ94W3xAA00SSwqOfUAJAnUUQQl9QBIprNh4gHxA"},"shape":[30],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p2459","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2460"}}},"glyph":{"type":"object","name":"Line","id":"p2455","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"actual"},"line_color":"#1f77b4","line_width":2}},"nonselection_glyph":{"type":"object","name":"Line","id":"p2456","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"actual"},"line_color":"#1f77b4","line_alpha":0.1,"line_width":2}},"muted_glyph":{"type":"object","name":"Line","id":"p2457","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"actual"},"line_color":"#1f77b4","line_alpha":0.2,"line_width":2}}}},{"type":"object","name":"GlyphRenderer","id":"p2469","attributes":{"data_source":{"id":"p2404"},"view":{"type":"object","name":"CDSView","id":"p2470","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2471"}}},"glyph":{"type":"object","name":"Line","id":"p2466","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"forecasted"},"line_color":"#d62728","line_width":2,"line_dash":[6]}},"nonselection_glyph":{"type":"object","name":"Line","id":"p2467","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"forecasted"},"line_color":"#d62728","line_alpha":0.1,"line_width":2,"line_dash":[6]}},"muted_glyph":{"type":"object","name":"Line","id":"p2468","attributes":{"x":{"type":"field","field":"date"},"y":{"type":"field","field":"forecasted"},"line_color":"#d62728","line_alpha":0.2,"line_width":2,"line_dash":[6]}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p2416","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p2441"},{"type":"object","name":"WheelZoomTool","id":"p2442","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p2443","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p2444","attributes":{"syncable":false,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p2449"},{"type":"object","name":"ResetTool","id":"p2450"},{"type":"object","name":"HelpTool","id":"p2451"},{"type":"object","name":"HoverTool","id":"p2473","attributes":{"renderers":"auto","tooltips":[["Date","@date{%F}"],["Actual","@actual{0.2f} kWh"],["Forecasted","@forecasted{0.2f} kWh"]],"formatters":{"type":"map","entries":[["@date","datetime"]]},"mode":"vline"}}]}},"left":[{"type":"object","name":"LinearAxis","id":"p2436","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p2437","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p2438"},"axis_label":"Energy (kWh)","major_label_policy":{"type":"object","name":"AllLabels","id":"p2439"}}}],"below":[{"type":"object","name":"DatetimeAxis","id":"p2419","attributes":{"ticker":{"type":"object","name":"DatetimeTicker","id":"p2420","attributes":{"num_minor_ticks":5,"tickers":[{"type":"object","name":"AdaptiveTicker","id":"p2421","attributes":{"num_minor_ticks":0,"mantissas":[1,2,5],"max_interval":500.0}},{"type":"object","name":"AdaptiveTicker","id":"p2422","attributes":{"num_minor_ticks":0,"base":60,"mantissas":[1,2,5,10,15,20,30],"min_interval":1000.0,"max_interval":1800000.0}},{"type":"object","name":"AdaptiveTicker","id":"p2423","attributes":{"num_minor_ticks":0,"base":24,"mantissas":[1,2,4,6,8,12],"min_interval":3600000.0,"max_interval":43200000.0}},{"type":"object","name":"DaysTicker","id":"p2424","attributes":{"days":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]}},{"type":"object","name":"DaysTicker","id":"p2425","attributes":{"days":[1,4,7,10,13,16,19,22,25,28]}},{"type":"object","name":"DaysTicker","id":"p2426","attributes":{"days":[1,8,15,22]}},{"type":"object","name":"DaysTicker","id":"p2427","attributes":{"days":[1,15]}},{"type":"object","name":"MonthsTicker","id":"p2428","attributes":{"months":[0,1,2,3,4,5,6,7,8,9,10,11]}},{"type":"object","name":"MonthsTicker","id":"p2429","attributes":{"months":[0,2,4,6,8,10]}},{"type":"object","name":"MonthsTicker","id":"p2430","attributes":{"months":[0,4,8]}},{"type":"object","name":"MonthsTicker","id":"p2431","attributes":{"months":[0,6]}},{"type":"object","name":"YearsTicker","id":"p2432"}]}},"formatter":{"type":"object","name":"DatetimeTickFormatter","id":"p2433","attributes":{"days":"%Y-%m-%d"}},"axis_label":"Date","major_label_policy":{"type":"object","name":"AllLabels","id":"p2434"}}}],"center":[{"type":"object","name":"Grid","id":"p2435","attributes":{"axis":{"id":"p2419"}}},{"type":"object","name":"Grid","id":"p2440","attributes":{"dimension":1,"axis":{"id":"p2436"}}},{"type":"object","name":"Legend","id":"p2461","attributes":{"location":"top_left","click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p2462","attributes":{"label":{"type":"value","value":"Actual"},"renderers":[{"id":"p2458"}]}},{"type":"object","name":"LegendItem","id":"p2472","attributes":{"label":{"type":"value","value":"Forecasted"},"renderers":[{"id":"p2469"}]}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p2480').textContent;
+              const render_items = [{"docid":"cd226188-1241-4759-b5bb-9b29b1e3150c","roots":{"p2407":"de60668e-4c3b-44ec-9530-5cf4c0ff0cff"},"root_ids":["p2407"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>

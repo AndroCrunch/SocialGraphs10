@@ -22,7 +22,7 @@ Electric vehicle sales are on the rise globally, as more people is deciding to s
 
 The dataset is about a share of new cars sold that are electric for 13 years period (2010-2023), in other words, how many of total cars sold within a year were EVs. In the following section, USA (where Palo Alto is located) will be compared to Denmark, EU, Noraway and China. 
 
-<iframe src="plt1.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p1.html" style="width:100%;height:600px;border:none;"></iframe>
 
 From the plot above it can be observed that Norway has the highest share of new cars that are electric by far, compared to other states. Such a result is expected, since Norway is also known for its very generous subsidy for EVs, as explained here https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/norway/incentives-legislations. Surprisingly, the USA is below the world's average, mostly due to the cheaper gas prices compared to other countries. Interestingly, China surpassed the EU in 2018 but still remained on lower sales than Denmark, which has the highest share of new cars that are electric within the EU.
 
@@ -38,7 +38,7 @@ From the plot above it can be observed that Norway has the highest share of new 
 
 In the barcharts below we will compare the share of Battery-electric and Plug-in hybrid cars sold across different states and worldwide.
 
-<iframe src="plt2.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p2.html" style="width:100%;height:600px;border:none;"></iframe>
 
 It can be observed that Norway and Denmark are the only ones from above which have decline of share of Plug-in hybrid cars sold in the last year. In all of the displayed bar plots, the exponential growth of Battery-electric EVs is observed. That implies growing awareness of environmental issues and a shared interest in eco-friendly technology, together with the partial transition towards fully electric cars by a large share of the population represented by Plug-in hybrid sales. Transition to fully electric cars has yet not been established due concernc about vehicle range, and many opt for hybrids or gasoline-fueled vehicles to travel longer distances.
 
@@ -46,23 +46,27 @@ It can be observed that Norway and Denmark are the only ones from above which ha
 
 Sales of plug-in electric vehicles (PEVs) grew rapidly from 2011 to 2018. Technology improvements, cost reduction, increasing model choice, maturing charging infrastructure, and economic recovery have continued to influence and support increased sales. Until 2018, the Chevrolet Volt had been on the market the longest and had the most overall sales, but the model was discontinued in 2019. In 2018, the newly introduced Tesla Model 3 rapidly increased vehicle sales and established the vehicle as the best-selling plug-in electric vehicle with nearly 50% of the market share. In the plot below, the top 10 EV manafacturers by total sales for period from 2012-2019 will be displayed.
 
-<iframe src="plt33.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p3.html" style="width:100%;height:600px;border:none;"></iframe>
 
 From the plot above it can be observed that all the manufacturers have increased sales through the last 10 years. Until 2017 Chevrolet had the most sales, when Tesla took the lead with further exponential growth. That reflects a (closely correlated) share of new EVs sold worldwide. 
 
 
 # Case Study - Palo Alto
 
-<iframe src="plt5.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p5.html" style="width:100%;height:600px;border:none;"></iframe>
 
-<iframe src="plt6.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p6.html" style="width:100%;height:600px;border:none;"></iframe>
 
-<iframe src="plt7.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p7.html" style="width:100%;height:600px;border:none;"></iframe>
+
+<iframe src="p8.html" style="width:100%;height:600px;border:none;"></iframe>
+
+<iframe src="p10.html" style="width:100%;height:600px;border:none;"></iframe>
 
 
 ## ML - Random Forest
 
-<iframe src="plt4.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="plt12.html" style="width:100%;height:600px;border:none;"></iframe>
 
 When applying linear regression model, the data clearly shows that two types of crimes aren't related to each other. Instead, they seemed to be going in their own directions. On average, drug-related crimes were decreasing by about **500 incidents every year**, while assault cases were going up by about **333 incidents each year**. This shows how complicated these crime trends can be, and that there might be different reasons that impact each type of crime. 
 

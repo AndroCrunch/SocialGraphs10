@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.3.4.min.js" integrity="sha384-5QIrjQuyo4I/x6DK/Sau33lcA3hT2TCZGr9vbk+2ebd7Da6FnR1amdM+9B5xOrSf" crossorigin="anonymous"></script>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.3.4.min.js" integrity="sha256-fb2SGHZoMPT7NKud32Da/0R4KqeKYPTC/OoAcusL7Ps=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="d9003791-280b-44e7-b9d6-f208355c5b75" data-root-id="p1837" style="display: contents;"></div>
+  
+    <script type="application/json" id="p1886">
+      {"a4dd8234-18d3-4926-a20a-a240e79aceb3":{"version":"3.3.4","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1837","attributes":{"width":500,"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p1838"},"y_range":{"type":"object","name":"DataRange1d","id":"p1839"},"x_scale":{"type":"object","name":"LinearScale","id":"p1847"},"y_scale":{"type":"object","name":"LinearScale","id":"p1848"},"title":{"type":"object","name":"Title","id":"p1840","attributes":{"text":"Distribution of Charging Times"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1876","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1870","attributes":{"selected":{"type":"object","name":"Selection","id":"p1871","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1872"},"data":{"type":"map","entries":[["top",{"type":"ndarray","array":{"type":"bytes","data":"2i4AAAJAAABHTAAAGVUAAIxJAACWVwAAzjsAAMoxAAD6JwAAjRcAAJETAABMCQAAWgYAADQGAADrAgAA1QEAAGQBAAAdAQAA7AAAAM8AAADTAAAAsQAAAJ0AAAB7AAAAgwAAAGQAAABNAAAALwAAACgAAAAcAAAAFwAAAA8AAAASAAAAEAAAAAwAAAAGAAAACAAAAAUAAAAHAAAABAAAAAAAAAACAAAAAAAAAAAAAAABAAAAAQAAAAMAAAABAAAAAgAAAAEAAAA="},"shape":[50],"dtype":"int32","order":"little"}],["left",{"type":"ndarray","array":{"type":"bytes","data":"mpmZmZmZuT8L16NwPYo2QD4K16NwfUZAexSuR+HaUEDXo3A9CndWQDMzMzMzE1xASOF6FK7XYED2KFyPwqVjQKRwPQrXc2ZAUrgehetBaUAAAAAAABBsQK5H4XoU3m5Ar0fhehTWcECG61G4Hj1yQF2PwvUopHNANDMzMzMLdUAL16NwPXJ2QOJ6FK5H2XdAuR6F61FAeUCQwvUoXKd6QGdmZmZmDnxAPgrXo3B1fUAVrkfhetx+QPYoXI/CIYBA4noUrkfVgEDNzMzMzIiBQLkehetRPIJApHA9CtfvgkCQwvUoXKODQHsUrkfhVoRAZ2ZmZmYKhUBSuB6F672FQD4K16NwcYZAKlyPwvUkh0AVrkfhetiHQAEAAAAAjIhA7FG4HoU/iUDYo3A9CvOJQMP1KFyPpopAr0fhehRai0CamZmZmQ2MQIbrUbgewYxAcT0K16N0jUBdj8L1KCiOQEjhehSu245ANDMzMzOPj0CPwvUoXCGQQIXrUbgee5BAexSuR+HUkEBxPQrXoy6RQA=="},"shape":[50],"dtype":"float64","order":"little"}],["right",{"type":"ndarray","array":{"type":"bytes","data":"C9ejcD2KNkA+CtejcH1GQHsUrkfh2lBA16NwPQp3VkAzMzMzMxNcQEjhehSu12BA9ihcj8KlY0CkcD0K13NmQFK4HoXrQWlAAAAAAAAQbECuR+F6FN5uQK9H4XoU1nBAhutRuB49ckBdj8L1KKRzQDQzMzMzC3VAC9ejcD1ydkDiehSuR9l3QLkehetRQHlAkML1KFynekBnZmZmZg58QD4K16NwdX1AFa5H4XrcfkD2KFyPwiGAQOJ6FK5H1YBAzczMzMyIgUC5HoXrUTyCQKRwPQrX74JAkML1KFyjg0B7FK5H4VaEQGdmZmZmCoVAUrgeheu9hUA+CtejcHGGQCpcj8L1JIdAFa5H4XrYh0ABAAAAAIyIQOxRuB6FP4lA2KNwPQrziUDD9Shcj6aKQK9H4XoUWotAmpmZmZkNjECG61G4HsGMQHE9CtejdI1AXY/C9SgojkBI4XoUrtuOQDQzMzMzj49Aj8L1KFwhkECF61G4HnuQQHsUrkfh1JBAcT0K16MukUBmZmZmZoiRQA=="},"shape":[50],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1877","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1878"}}},"glyph":{"type":"object","name":"Quad","id":"p1873","attributes":{"left":{"type":"field","field":"left"},"right":{"type":"field","field":"right"},"bottom":{"type":"value","value":0},"top":{"type":"field","field":"top"},"fill_color":{"type":"value","value":"#1f77b4"}}},"nonselection_glyph":{"type":"object","name":"Quad","id":"p1874","attributes":{"left":{"type":"field","field":"left"},"right":{"type":"field","field":"right"},"bottom":{"type":"value","value":0},"top":{"type":"field","field":"top"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Quad","id":"p1875","attributes":{"left":{"type":"field","field":"left"},"right":{"type":"field","field":"right"},"bottom":{"type":"value","value":0},"top":{"type":"field","field":"top"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1846","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1859"},{"type":"object","name":"WheelZoomTool","id":"p1860","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1861","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1862","attributes":{"syncable":false,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p1867"},{"type":"object","name":"ResetTool","id":"p1868"},{"type":"object","name":"HelpTool","id":"p1869"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1854","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1855","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1856"},"axis_label":"Frequency","major_label_policy":{"type":"object","name":"AllLabels","id":"p1857"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1849","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1850","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1851"},"axis_label":"Charging Time (minutes)","major_label_policy":{"type":"object","name":"AllLabels","id":"p1852"}}}],"center":[{"type":"object","name":"Grid","id":"p1853","attributes":{"axis":{"id":"p1849"}}},{"type":"object","name":"Grid","id":"p1858","attributes":{"dimension":1,"axis":{"id":"p1854"}}},{"type":"object","name":"Span","id":"p1879","attributes":{"location":118.22970736411224,"dimension":"height","line_color":"red","line_width":2,"line_dash":[6]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p1886').textContent;
+              const render_items = [{"docid":"a4dd8234-18d3-4926-a20a-a240e79aceb3","roots":{"p1837":"d9003791-280b-44e7-b9d6-f208355c5b75"},"root_ids":["p1837"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
