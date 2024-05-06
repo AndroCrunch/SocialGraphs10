@@ -53,6 +53,8 @@ From the plot above it can be observed that all the manufacturers have increased
 
 # Case Study - Palo Alto
 
+<iframe src="my_map.html" style="width:100%; height:600px; border:none;"></iframe>
+
 <iframe src="p5.html" style="width:100%;height:600px;border:none;"></iframe>
 
 <iframe src="p6.html" style="width:100%;height:600px;border:none;"></iframe>
