@@ -6,9 +6,44 @@ title: Final Project - Forecasting of Electrical Vehicle Charging Demand in the 
 
 # Introduction
 
+The global market for electric vehicles (EVs) is undergoing rapid transformation. Growing environmental consciousness and consumer enthusiasm for innovative, eco-friendly technologies are driving widespread EV adoption. However, there are still opportunities to refine and improve EV integration for the maximal benefit of both users and the larger energy grid.
 
-# Basic stats and data analysis
+In addition, we explore various social and economic elements which influence EV manufacturers and sales. Government incentives can significantly increase EV adoption rates. Additionally, the proximity of manufacturing centers, the accessibility of charging stations within a country, and other related legislation play critical roles in shaping consumer choices and manufacturer success. For this study, we focus on main markets as well as markets with the largest EV adoption such as Norway, seeking to understand the key factors driving success in these regions.
 
+For deeper understanding of the problem at a local level, we use city of Palo Alto,located in Silicon Valley, California, which provides a unique lens into the dynamics of EV infrastructure. With high EV ownership and a forward-thinking approach to sustainability, the city presents a valuable case study for optimizing EV usage, charging patterns, and their impact on local power systems.
+
+- Peak Demand Understanding: We do data analysis to understand when the most cars will be charging in Palo Alto. This information is essential for power grid management and stability.
+- Dynamic Fee Estimation: Create a model that generates fee estimates for EV charging. Fees could change based on expected demand, incentivizing off-peak charging and optimizing power usage.
+- Energy Expenditure Analysis: Track and analyze EV energy spending to understand the economic contributions of EV owners and potential fluctuations.
+
+In addition, we found several datasets to further encompass a range of economic indicators, market indices, and demographic data from various regions around the world, providing opportunities to conduct comparative analyses, identify cross-border trends, and derive insights that inform strategic decision-making on a global scale.
+
+# Data Analysis
+
+First things we did was to do simple cleaning of NaN values, duplicates and data type convertions into proper datetime and timedelta formats. This is crucial for later analysis of time-based patterns, allowing us to extract temporal insights. Advanced preprocessing steps are with wasserstein distance, where we comapre distributions of each charging station and remove stations which have usage below 28 times, as the average frequency is around 400, and compare distributions visually so they can't affect the predictive models later on. Pre-cleaning data has 259k rows with 33 features, post-cleaning we have 169k rows with the same number of features. Below see the average charging time acompanied by the grid plot, which capture the essence of our user centric approach to the EV charging problem.
+
+<iframe src="p5.html" style="width:100%;height:600px;border:none;"></iframe>
+
+As can be seen from the plot, the charging time follows a power law distribution with the average charging time of approximately 118 minutes where shorter charging times are more frequent than longer ones. After going through average charging times for electric vehicles we found out that batery charging follows a two-phase process; initially, the charging is fast, followed by a slower phase as the battery approaches full capacity.
+
+<img src="p20.png" style="width:100%;height:600px;border:none;"></img>
+
+The analysis reveals a power law relationship between total charging duration and energy consumption, with larger EV batteries generally requiring more energy. However, outliers exist where extended charging durations are observed despite minimal energy usage, typically attributable to instances where vehicles remain plugged in despite already being fully charged. Identifying and addressing these outliers can enhance the efficiency of charging infrastructure and ensure optimal utilization, ultimately improving our understanding of EV charging behaviors and the effectiveness of charging networks.
+
+Next part is the obvious linear relationship GHG savings/gasoline savings, when looking at the data to get one from another just divide by 7.89. However, an interesting is the behaviours of fees. It acts as a linear relationship; however, it is unclear what is going on. Hence, we decided to delve deeper into this data. In the below sectors, we utilize average fee, energy spent, and charging time to understand the trend.
+
+MOZDA PODNASLOVE DODAT DRUGDJE I OVDJE
+
+In our data analysis, we employed a combination of statistical techniques, machine learning algorithms, and visualization tools to gain insights from the dataset. What we learned from the datasets, is two-fold: firstly, our Palo alto case-study dataset offers a record of charging activities within the city, providing insights into charging behaviors, energy consumption patterns, and infrastructure utilization among electric vehicle owners. Our main focus is the intersection of charging time, fees and energy spent/gasoiln saved. In the map below you can see the location of each charging station, so our dataset is not only a reference for a single city, but reflects a larger pattern which can be found in any larger city and country. \\
+From a user perspective, what is important are fee, or the price that user is paying/saving compared to using traditional combustion engine. And, since the charging time duration always follows a similar pattern, and does not need prediction element, we use current energy prices combined with average charging time to present the user with the estimated fee he would pay if he started charging immediatelly. In addition, we estimate energy demand using a 30 day lag to predict the next day, giving users additional insight wether charging the next day is optimal.
+
+<iframe src="my_map.html" style="width:100%; height:600px; border:none;"></iframe>
+
+As can be seen from the map, the charging stations are located near Stanford University in the city centre.
+
+OVDJE IDE SLIKA KOJU TREBA PORAVIT
+
+The daily periodicity of the charging pattern in the Palo Alto EV charging dataset reveals a notable trend of larger crowds utilizing charging infrastructure during the day, potentially coinciding with work or leisure activities. On the other hand, charging activity tends to taper off during the early morning hours and at night, suggesting decreased demand during these periods. The peek demand seen for last day of the week is a special event occurence, which is accounted for in the models below.
 
 # 5.1 Current Sales/Trends with Electric Vehicles Worldwide
 
@@ -53,9 +88,6 @@ From the plot above it can be observed that all the manufacturers have increased
 
 # Case Study - Palo Alto
 
-<iframe src="my_map.html" style="width:100%; height:600px; border:none;"></iframe>
-
-<iframe src="p5.html" style="width:100%;height:600px;border:none;"></iframe>
 
 <iframe src="p6.html" style="width:100%;height:600px;border:none;"></iframe>
 
@@ -63,7 +95,6 @@ From the plot above it can be observed that all the manufacturers have increased
 
 <iframe src="p8.html" style="width:100%;height:600px;border:none;"></iframe>
 
-<img src="p20.png" style="width:100%;height:600px;border:none;"></img>
 
 <iframe src="p10a.html" style="width:100%;height:600px;border:none;"></iframe>
 
