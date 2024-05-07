@@ -31,7 +31,7 @@ Electric vehicle sales are on the rise globally, as more people is deciding to s
 
 The dataset is about a share of new cars sold that are electric for 13 years period (2010-2023), in other words, how many of total cars sold within a year were EVs. In the following section, USA (where Palo Alto is located) will be compared to Denmark, EU, Noraway and China. 
 
-<iframe src="p1.html" style="width:100%;height:500%;border:none;"></iframe>
+<iframe src="p1.html" style="width:100%;height:400px;border:none;"></iframe>
 
 From the plot above it can be observed that Norway has the highest share of new cars that are electric by far, compared to other states. Such a result is expected, since Norway is also known for its very generous subsidy for EVs, as explained here [1] https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/norway/incentives-legislations. Surprisingly, the USA is below the world's average, mostly due to the cheaper gas prices compared to other countries. Interestingly, China surpassed the EU in 2018 but still remained on lower sales than Denmark, which has the highest share of new cars that are electric within the EU.
 
