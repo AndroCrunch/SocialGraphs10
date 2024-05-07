@@ -32,7 +32,7 @@ Electric vehicle sales are on the rise globally, as more people is deciding to s
 
 The dataset is about a share of new cars sold that are electric for 13 years period (2010-2023), in other words, how many of total cars sold within a year were EVs. In the following section, USA (where Palo Alto is located) will be compared to Denmark, EU, Noraway and China. 
 
-<iframe src="p1.html" style="width:130%;height:400px;border:none;"></iframe>
+<iframe src="p1.html" style="width:160%;height:400px;border:none;"></iframe>
 
 From the plot above it can be observed that Norway has the highest share of new cars that are electric by far, compared to other states. Such a result is expected, since Norway is also known for its very generous subsidy for EVs, as explained here [1] https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/norway/incentives-legislations. Surprisingly, the USA is below the world's average, mostly due to the cheaper gas prices compared to other countries. Interestingly, China surpassed the EU in 2018 but still remained on lower sales than Denmark, which has the highest share of new cars that are electric within the EU.
 
@@ -78,11 +78,11 @@ Palo Alto is located in the center of Silicon Valley, and has one of the highest
 - Understand EV energy spending
 - Understand electricity generation in the city to further incentivise sustainability
 
-<iframe src="p5.html" style="width:130%;height:400px;border:none;"></iframe>
+<iframe src="p5.html" style="width:160%;height:400px;border:none;"></iframe>
 
 As can be seen from the plot, the charging time follows a power law distribution with the average charging time of approximately 118 minutes where shorter charging times are more frequent than longer ones. After going through average charging times for electric vehicles we found out that batery charging follows a two-phase process; initially, the charging is fast, followed by a slower phase as the battery approaches full capacity.
 
-<img src="p20.png" style="width:100%;height:400px;border:none;">
+<img src="p20.png" style="width:100%;height:200px;border:none;">
 
 The analysis reveals a **power law** relationship between total charging duration and energy consumption, with larger EV batteries generally requiring more energy. However, outliers exist where extended charging durations are observed despite minimal energy usage, typically attributable to instances where vehicles **remain plugged in despite already being fully charged**. Identifying and addressing these outliers can enhance the efficiency of charging infrastructure and ensure optimal utilization, ultimately improving our understanding of EV charging behaviors and the effectiveness of charging networks.
 
@@ -100,13 +100,13 @@ As can be seen from the map, the charging stations are located near Stanford Uni
 
 The daily periodicity of the charging pattern in the Palo Alto EV charging dataset reveals a notable trend of larger crowds utilizing charging infrastructure during the day, potentially coinciding with work or leisure activities. On the other hand, charging activity tends to taper off during the early morning hours and at night, suggesting decreased demand during these periods. The peek demand seen for last day of the week is a special event occurence, which is accounted for in the models below.
 
-<iframe src="p6.html" style="width:130%;height:400px;border:none;"></iframe>
+<iframe src="p6.html" style="width:160%;height:400px;border:none;"></iframe>
 
 ## Charging Station Analysis and Insights 
 
 In order to understand the difference between charging station we use Wasserstein distance, which takes into account the entire shape of the charging time distributions and not only the frequency. This is because charging times can vary significantly, and simply comparing the average might not capture the full picture. If a particular station consistently shows a higher Wasserstein distance compared to others, it indicates potential inefficiencies in its charging infrastructure.
 
-<iframe src="p7.html" style="width:130%;height:400px;border:none;"></iframe>
+<iframe src="p7.html" style="width:160%;height:400px;border:none;"></iframe>
 
 When comparing different charging stations, we can see that the main difference between them is only the size i.e. the frequency of charging. Hence, we can assume that stations act similarly, with only demand mismatches. And, when checking the position of the most similar vs most distant (most frequent, vs least freqent) this is definitly the case. We can thus assume that the most significant optimization challenge appears to be addressing areas where the demand for charging outstrips the capacity of available stations.
 
@@ -124,13 +124,13 @@ By employing a simple machine learning model, a K-Nearest Neighbors regressor, w
 
 ### ML prediction for fee
 
-<iframe src="p10b.html" style="width:130%;height:400px;border:none;"></iframe>
+<iframe src="p10b.html" style="width:160%;height:400px;border:none;"></iframe>
 
 ### ML - Random Forest
 
 This random forest model tries to predict how much energy electric vehicles will use across all charging stations each day. To do this, it looks at historical energy usage patterns over the past month.  It uses past charging information to make an educated guess about future energy needs. We then visualize the actual energy used alongside the model's predictions to see how accurate it is. This kind of information can help with planning power supplies and making sure there's enough energy available for charging electric cars.
 
-<iframe src="p12.html" style="width:130%;height:400px;border:none;"></iframe>
+<iframe src="p12.html" style="width:160%;height:400px;border:none;"></iframe>
 
 The graph displays the actual versus forecasted daily energy consumption over a 30-day period. It's clear that the random forest model isn't clearly capturing the trend and fluctuation in energy usage with reasonable accuracy. There are a few instances where the forecast diverges from the actual data, indicating potential areas for model refinement to enhance prediction accuracy.
 
