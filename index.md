@@ -1,9 +1,9 @@
-<link rel="stylesheet" type="text/css" href="assets/style.css">
 ---
 layout: default
 title: Final Project - Forecasting of Electrical Vehicle Charging Demand in the City of Palo Alto - naslov i story slozit vise sa social prespektive
 ---
 
+<link rel="stylesheet" type="text/css" href="assets/style.css">
 
 # Introduction
 
