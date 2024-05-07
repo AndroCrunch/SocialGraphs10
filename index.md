@@ -31,7 +31,7 @@ Electric vehicle sales are on the rise globally, as more people is deciding to s
 
 The dataset is about a share of new cars sold that are electric for 13 years period (2010-2023), in other words, how many of total cars sold within a year were EVs. In the following section, USA (where Palo Alto is located) will be compared to Denmark, EU, Noraway and China. 
 
-<iframe src="p1.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p1.html" style="width:300%;height:900px;border:none;"></iframe>
 
 From the plot above it can be observed that Norway has the highest share of new cars that are electric by far, compared to other states. Such a result is expected, since Norway is also known for its very generous subsidy for EVs, as explained here https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/norway/incentives-legislations. Surprisingly, the USA is below the world's average, mostly due to the cheaper gas prices compared to other countries. Interestingly, China surpassed the EU in 2018 but still remained on lower sales than Denmark, which has the highest share of new cars that are electric within the EU.
 
@@ -101,7 +101,7 @@ The daily periodicity of the charging pattern in the Palo Alto EV charging datas
 
 <iframe src="p6.html" style="width:100%;height:600px;border:none;"></iframe>
 
-## Wassterstein distance - comparison between charging stations
+## Charging Station Analysis and Insights 
 
 In order to understand the difference between charging station we use Wasserstein distance, which takes into account the entire shape of the charging time distributions and not only the frequency. This is because charging times can vary significantly, and simply comparing the average might not capture the full picture. If a particular station consistently shows a higher Wasserstein distance compared to others, it indicates potential inefficiencies in its charging infrastructure.
 
