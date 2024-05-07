@@ -34,7 +34,7 @@ The dataset is about a share of new cars sold that are electric for 13 years per
 
 <iframe src="p1.html" style="width:160%;height:400px;border:none;"></iframe>
 
-From the plot above it can be observed that Norway has the highest share of new cars that are electric by far, compared to other states. Such a result is expected, since Norway is also known for its very generous subsidy for EVs, as explained here [1] https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/norway/incentives-legislations. Surprisingly, the USA is below the world's average, mostly due to the cheaper gas prices compared to other countries. Interestingly, China surpassed the EU in 2018 but still remained on lower sales than Denmark, which has the highest share of new cars that are electric within the EU.
+From the plot above it can be observed that Norway has the highest share of new cars that are electric by far, compared to other states. Such a result is expected, since Norway is also known for its very generous subsidy for EVs, as explained in [Alternative Fuels Data Center on Norway's incentives and legislations](https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/norway/incentives-legislations). Surprisingly, the USA is below the world's average, mostly due to the cheaper gas prices compared to other countries. Interestingly, China surpassed the EU in 2018 but still remained on lower sales than Denmark, which has the highest share of new cars that are electric within the EU.
 
 ## Fully-electric cars vs. plug-in hybrids
  
