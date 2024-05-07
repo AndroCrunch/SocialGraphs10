@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Final Project - Data-Driven Insights on EV Adoption: From Global Trends to a Local Caser Study
+title: Final Project - Data-Driven Insights on EV Adoption - From Global Trends to a Local Caser Study
 ---
 
 <link rel="stylesheet" type="text/css" href="assets/style.css">
