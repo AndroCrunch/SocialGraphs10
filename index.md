@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Final Project - Forecasting of Electrical Vehicle Charging Demand in the City of Palo Alto - naslov i story slozit vise sa social prespektive
+title: Final Project - Data-Driven Insights on EV Adoption: From Global Trends to a Local Caser Study
 ---
 
 <link rel="stylesheet" type="text/css" href="assets/style.css">
