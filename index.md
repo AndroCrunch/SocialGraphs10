@@ -4,7 +4,8 @@ title: Data-Driven Insights on EV Adoption - From Global Trends to a Local Caser
 ---
 
 <link rel="stylesheet" type="text/css" href="assets/style.css">
-<a href="https://github.com/yourusername/yourrepository" class="btn" style="background-color: #34c84a; color: white; padding: 10px 20px; text-align: center; display: inline-block; margin: 10px 0; border-radius: 5px;">GitHub</a>
+
+[The link for the explainer notebook.](https://github.com/AndroCrunch/EV_Availability_G23/blob/main/final_analysis.ipynb).
 
 # Introduction
 
