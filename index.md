@@ -61,7 +61,20 @@ From the plot above it can be observed that all the manufacturers have increased
 
 # Case Study - Palo Alto
 
-First things we did was to do simple cleaning of NaN values, duplicates and data type convertions into proper datetime and timedelta formats. This is crucial for later analysis of time-based patterns, allowing us to extract temporal insights. Advanced preprocessing steps are with wasserstein distance, where we comapre distributions of each charging station and remove stations which have usage below 28 times, as the average frequency is around 400, and compare distributions visually so they can't affect the predictive models later on. Pre-cleaning data has 259k rows with 33 features, post-cleaning we have 169k rows with the same number of features. Below see the average charging time acompanied by the grid plot, which capture the essence of our user centric approach to the EV charging problem.
+Palo Alto is located in the center of Silicon Valley, and has one of the highest EV adoption rates per capita, with 2500 residents currently owning EVs and another 1,000 EV commuters coming into town each day. The city has taken multiple actions to accelerate EV adoption [1].
+
+**Key Factors in Palo Alto's Success:**
+
+- City and state-level incentives that lower the cost of EVs up to 80,000 $
+- Solid charging network in the city center near large employers such as Stanford, University South, and Tesla Motors.
+- A tech-savvy population
+- "Ride and drive" events to introduce residents to EVs, with a significant percentage of participants experiencing their first EV test drive.
+
+**Our aim for further improvements:**
+
+- Create a forecasting model to understand when there is largest amount of people charging and to give a Fee estimation to the clients
+- Understand EV energy spending
+- Understand electricity generation in the city to further incentivise sustainability
 
 <iframe src="p5.html" style="width:100%;height:600px;border:none;"></iframe>
 
@@ -86,15 +99,16 @@ As can be seen from the map, the charging stations are located near Stanford Uni
 
 The daily periodicity of the charging pattern in the Palo Alto EV charging dataset reveals a notable trend of larger crowds utilizing charging infrastructure during the day, potentially coinciding with work or leisure activities. On the other hand, charging activity tends to taper off during the early morning hours and at night, suggesting decreased demand during these periods. The peek demand seen for last day of the week is a special event occurence, which is accounted for in the models below.
 
- 
-
-
-
-
-
 <iframe src="p6.html" style="width:100%;height:600px;border:none;"></iframe>
 
+## Wassterstein distance - comparison between charging stations
+
+In order to understand the difference between charging station we use Wasserstein distance, which takes into account the entire shape of the charging time distributions and not only the frequency. This is because charging times can vary significantly, and simply comparing the average might not capture the full picture. If a particular station consistently shows a higher Wasserstein distance compared to others, it indicates potential inefficiencies in its charging infrastructure.
+
 <iframe src="p7.html" style="width:100%;height:600px;border:none;"></iframe>
+
+When comparing different charging stations, we can see that the main difference between them is only the size i.e. the frequency of charging. Hence, we can assume that stations act similarly, with only demand mismatches. And, when checking the position of the most similar vs most distant (most frequent, vs least freqent) this is definitly the case. We can thus assume that the most significant optimization challenge appears to be addressing areas where the demand for charging outstrips the capacity of available stations.
+
 
 <iframe src="p8.html" style="width:100%;height:600px;border:none;"></iframe>
 
