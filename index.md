@@ -92,29 +92,29 @@ Next part is the obvious **linear relationship GHG savings/gasoline savings**, w
 
 From a user perspective, what is important are fee, or the price that user is paying/saving compared to using traditional combustion engine. And, since the charging time duration always follows a similar pattern, and does not need prediction element, we use current energy prices combined with average charging time to present the user with the estimated fee he would pay if he started charging immediatelly. In addition, we estimate energy demand using a 30 day lag to predict the next day, giving users additional insight wether charging the next day is optimal.
 
-<iframe src="my_map.html" style="width:100%; height:600px; border:none;"></iframe>
+<iframe src="my_map.html" style="width:100%; height:400px; border:none;"></iframe>
 
 As can be seen from the map, the charging stations are located near Stanford University in the city centre.
 
-<img src="weeklyUsage.png" style="width:100%;height:600px;border:none;"></img>
+<img src="weeklyUsage.png" style="width:100%;height:400px;border:none;"></img>
 
 The daily periodicity of the charging pattern in the Palo Alto EV charging dataset reveals a notable trend of larger crowds utilizing charging infrastructure during the day, potentially coinciding with work or leisure activities. On the other hand, charging activity tends to taper off during the early morning hours and at night, suggesting decreased demand during these periods. The peek demand seen for last day of the week is a special event occurence, which is accounted for in the models below.
 
-<iframe src="p6.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p6.html" style="width:100%;height:400px;border:none;"></iframe>
 
 ## Charging Station Analysis and Insights 
 
 In order to understand the difference between charging station we use Wasserstein distance, which takes into account the entire shape of the charging time distributions and not only the frequency. This is because charging times can vary significantly, and simply comparing the average might not capture the full picture. If a particular station consistently shows a higher Wasserstein distance compared to others, it indicates potential inefficiencies in its charging infrastructure.
 
-<iframe src="p7.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p7.html" style="width:100%;height:400px;border:none;"></iframe>
 
 When comparing different charging stations, we can see that the main difference between them is only the size i.e. the frequency of charging. Hence, we can assume that stations act similarly, with only demand mismatches. And, when checking the position of the most similar vs most distant (most frequent, vs least freqent) this is definitly the case. We can thus assume that the most significant optimization challenge appears to be addressing areas where the demand for charging outstrips the capacity of available stations.
 
-<iframe src="p8.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p8.html" style="width:100%;height:400px;border:none;"></iframe>
 
 Based on this observation, it seems that the majority of EV owners tend to initiate charging sessions in the morning, possibly coinciding with their arrival at work or school. The peak charging activity occurs around midday, specifically between 12:00 PM and 1:00 PM. This could indicate a common trend of utilizing lunch breaks or other midday opportunities to charge their EVs, possibly to ensure sufficient charge for afternoon or evening activities. Further analysis of these patterns could provide insights into optimal charging infrastructure placement and energy management strategies to accommodate and optimize for these peak charging times.
 
-<iframe src="p10a.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p10a.html" style="width:100%;height:400px;border:none;"></iframe>
 
 Since 2017 until 2021, the average fee per day has been increasing. The average energy spent per day has been increasing as well, with a slight drops in in 2020 possibly due to lack of deman because of COVID. The average charging time per day has been also increasing since 2017. This phenomenon could be attributed to various factors, including the increasing adoption of EVs leading to greater demand for charging infrastructure, which may result in higher fees as providers seek to balance supply and demand. Additionally, the rise in average energy consumption because of large-scale training of AI models, and charging duration could reflect the growing popularity of larger battery-capacity EVs.
 
@@ -124,13 +124,13 @@ By employing a simple machine learning model, a K-Nearest Neighbors regressor, w
 
 ### ML prediction for fee
 
-<iframe src="p10b.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p10b.html" style="width:100%;height:400px;border:none;"></iframe>
 
 ### ML - Random Forest
 
 This random forest model tries to predict how much energy electric vehicles will use across all charging stations each day. To do this, it looks at historical energy usage patterns over the past month.  It uses past charging information to make an educated guess about future energy needs. We then visualize the actual energy used alongside the model's predictions to see how accurate it is. This kind of information can help with planning power supplies and making sure there's enough energy available for charging electric cars.
 
-<iframe src="p12.html" style="width:100%;height:600px;border:none;"></iframe>
+<iframe src="p12.html" style="width:100%;height:400px;border:none;"></iframe>
 
 The graph displays the actual versus forecasted daily energy consumption over a 30-day period. It's clear that the random forest model isn't clearly capturing the trend and fluctuation in energy usage with reasonable accuracy. There are a few instances where the forecast diverges from the actual data, indicating potential areas for model refinement to enhance prediction accuracy.
 
