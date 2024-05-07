@@ -82,7 +82,7 @@ Palo Alto is located in the center of Silicon Valley, and has one of the highest
 
 As can be seen from the plot, the charging time follows a power law distribution with the average charging time of approximately 118 minutes where shorter charging times are more frequent than longer ones. After going through average charging times for electric vehicles we found out that batery charging follows a two-phase process; initially, the charging is fast, followed by a slower phase as the battery approaches full capacity.
 
-<img src="p20.png" style="width:100%;height:200px;border:none;">
+<img src="p20.png" style="width:100%;height:600px;border:none;">
 
 The analysis reveals a **power law** relationship between total charging duration and energy consumption, with larger EV batteries generally requiring more energy. However, outliers exist where extended charging durations are observed despite minimal energy usage, typically attributable to instances where vehicles **remain plugged in despite already being fully charged**. Identifying and addressing these outliers can enhance the efficiency of charging infrastructure and ensure optimal utilization, ultimately improving our understanding of EV charging behaviors and the effectiveness of charging networks.
 
