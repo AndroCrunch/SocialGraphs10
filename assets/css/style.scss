@@ -2,3 +2,9 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+img {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%; /* This makes images stretch to the full container width */
+}
